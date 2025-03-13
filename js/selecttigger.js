@@ -1,0 +1,1 @@
+$('.inner-head-drop').select2();

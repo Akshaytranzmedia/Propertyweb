@@ -1,0 +1,267 @@
+.prop-main-container{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    padding: 15px;
+    position: relative;
+}
+.prop-img-container{
+    position: relative;
+    border-radius: 13px;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.25);
+}
+.prop-img-container div img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-radius: 13px;
+}
+.prop-price{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: var(--primecolor);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.prop-title-container{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 25px;
+}
+.prop-flx-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.prop-title-loc h6{
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+.prop-loc{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.prop-view-btn a{
+    background-color: var(--primecolor);
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.17);
+}
+.prop-overylay{
+    background: linear-gradient(355.5deg, rgba(0, 0, 0, 0.88) 8.06%, rgba(230, 230, 230, 0) 90.57%);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 13px;
+}
+.lft-arw{
+    position: absolute;
+    top: 28%;
+    left: -52px;
+    z-index: 10;
+    cursor: pointer;
+}
+.rigt-arw{
+    position: absolute;
+    top: 28%;
+    right: -52px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .irs--round .irs-bar {
+    background-color: #BC0000 !important;
+  }
+  .irs--round .irs-handle {
+    background-color: #BC0000 !important;
+    border-color: #BC0000 !important;
+    box-shadow: 0px 0px 0px 5px rgba(124, 124, 124, 0.2);
+  }
+  .irs--round .irs-handle.state_hover,
+  .irs--round .irs-handle:hover {
+    background-color: #BC0000 !important;
+  }
+  .irs--round .irs-handle {
+    width: 15px !important;
+    height: 15px !important;
+    top: 30px !important;
+  }
+  .irs--round .irs-from,
+  .irs--round .irs-to,
+  .irs--round .irs-single {
+    background-color: transparent;
+    color: #666;
+  }
+  .irs--round .irs-from:before,
+  .irs--round .irs-to:before,
+  .irs--round .irs-single:before,
+  .irs--round .irs-min,
+  .irs--round .irs-max {
+    display: none;
+  }
+  .irs--round .irs-from, .irs--round .irs-to, .irs--round .irs-single{
+    background-color: transparent !important;
+    color: var(--secfont) !important;
+  }
+  .irs--round .irs-from::before, .irs--round .irs-to::before, .irs--round .irs-single::before{
+    display: none !important;
+  }
+  .irs-from, .irs-to, .irs-single{
+    top: 50px !important;
+  }
+
+
+/* checkbox */
+/* This css is for normalizing styles. You can skip this. */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.prop-filter-checkboxes{
+  margin: 5px 0;
+}
+
+.prop-filter-checkboxes input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.prop-filter-checkboxes label {
+  position: relative;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.prop-filter-checkboxes label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: #E5E5E5;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.prop-filter-checkboxes input:checked + label:before {
+  border: 1px solid #BC0000;
+}
+.prop-filter-checkboxes input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  width: 6px;
+  height: 10px;
+  border: solid #BC0000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.mySlides img{
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+  box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.25);
+}
+.sml{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.cust-column img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  margin-left: 2px;
+  box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.25);
+}
+.slide-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 93%;
+  max-width: 1200px;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next{
+  right: -65px;
+}
+.prev{
+  left: -65px;
+}

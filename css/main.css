@@ -1,0 +1,53 @@
+:root{
+    --primecolor: #BC0000;
+    --seccolor: #FFECEC;
+    --mainfont: #333333;
+    --secfont: #666666;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    background: #FCFCFC;
+}
+.parent-container{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.parent-container1{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0px 50px; 
+}
+.parent-container2{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    position: relative; 
+}
+@media screen and (max-width: 991px) {
+    .parent-container{
+        padding: 0px 50px 90px 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .parent-container{
+        /* padding: 0px 30px; */
+        padding: 0px 30px 92px 30px;
+    }
+    .parent-container1, .parent-container2{
+        padding: 0px 20px; 
+    }
+}
+.common-spacing{
+    margin-top: 75px;
+}
+@media screen and (max-width: 767px) {
+    .common-spacing{
+        margin-top: 45px;
+    }
+}

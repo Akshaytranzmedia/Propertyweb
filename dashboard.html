@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#bc0000">
+    <link rel="icon" type="image/png" href="">
+    <title>Property</title>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Regular CSS-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/innerheader.css">
+    <link rel="stylesheet" href="css/custom_style.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!--Plugins-->
+    <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+
+</head>
+<body> 
+
+    <!-- CONTENT STARTS-->
+    <section>
+       <!--HEADER MENU STARTS--> 
+       <div class="inner-header-container">
+            <div class="inner-header-menu">
+                <div class="inner-head-lft">
+                    <div class="inner-head-logo"><a href="home.html"><img src="images/logo.png" alt="logo"></a></div>
+                    <div class="inner-head-search-container">
+                        <form action="">
+                            <div class="inner-head-search-form">
+                                <select class="js-example-basic-single js-states form-control inner-head-drop" id="id_label_single">
+                                    <option value="" selected>sale</option>
+                                    <option value="">rent</option>
+                                    <option value="">lease</option>
+                                </select>
+                                <input type="text" placeholder="Search Property" class="inner-head-search" name="" id="">
+                                <button type="" class="inner-head-search-btn"><img src="images/search-icon.svg" alt=""></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="inner-head-rght">
+                    <div class="head-home-btn"><a href="home.html"><img src="images/home-btn.svg" alt=""></a></div>
+                    <div class="head-notification-btn"><a href=""><img src="images/notification-btn.svg" alt=""></a></div>
+                    <div class="head-user-profile-drop">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="images/profile-img.jpg" class="profile-img-drop" alt=""> <span>Akshay</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">settings</a></li>
+                              <li><a class="dropdown-item" href="#">bookmarks</a></li>
+                              <li><a class="dropdown-item" href="#">logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="postadd-btn"><a href="">post add</a></div>
+                </div>
+                <div class="hm-mob-ham">
+                  <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="images/menu icon.svg" alt="" class="hm-menu-icon">
+                  </div>
+                </div>
+            </div>
+       </div>
+
+       <div class="hm-mob-header">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="hm-side-menu-container">
+            <div class="hm-side-menu-header">
+              <img src="images/logo.png" alt="logo">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="hm-side-menulist">
+              <ul class="header-mob-menu-list">
+                <li><a href="home.html" class="header-menu-active">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="services.html">our services</a></li>
+                <li><a href="contect.html">contact us</a></li>
+                <li><a href="">logout</a></li>
+              </ul>
+            </div>
+            </div>
+        </div>
+      </div>
+
+       <div class="mob-menu-bottom">
+        <div class="mob-menu-btm-list">
+          <ul>
+            <li><a href=""><img src="images/Notification.svg" alt=""><span>notification</span></a></li>
+            <li><a href=""><img src="images/Image.svg" alt=""><span>adds</span></a></li>
+            <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><img src="images/Search.svg" alt=""><span>search</span></li>
+            <li><a href="login.html"><img src="images/User.svg" alt=""><span>Profile</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">find your property</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="mob-search-container">
+            <div class="mob-search-bar">
+              <input type="text" placeholder="Search Property">
+              <button><img src="images/search-icon.svg" alt=""> </button>
+            </div>
+            <div class="mob-search-head">Popular searches</div>
+            <ul class="mob-search-recent-ser">
+              <li><a href="">Sale</a></li>
+              <li><a href="">Rent House</a></li>
+              <li><a href="">Sale Apartment</a></li>
+              <li><a href="">Land for sale</a></li>
+              <li><a href="">house for rent</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <!--HEADER MENU ENDS--> 
+
+      <!-- DASHBOAD LEFT SIDE MENU SECTION STARTS -->
+      <div class="parent-container1">
+        <div class="row">
+           <!-- LEFT MENU -->
+           <div class="col-12 col-lg-2">
+             <div class="dashboard-side-menu-container">
+               <div class="db-profile-sec">
+                 <img src="images/profile-img.jpg" alt="profile-img" class="db-pro-img">
+                 <div class="db-user-name">akshay PK</div>
+                 <div class="db-user-email">akshaypk38@gmail.com</div>
+               </div>
+               <div class="db-side-menu-list">
+                 <ul>
+                   <li><a href="tabdb.html" class=""><img src="images/db.svg" alt="">dashboard</a></li>
+                   <li><a href="tabprofile.html" class=""><img src="images/pro.svg" alt="">profile</a></li>
+                   <li><a href="tabnewadd.html" class=""><img src="images/newadd.svg" alt="">new add</a></li>
+                   <li><a href="tabpostadd.html" class=""><img src="images/postedadd.svg" alt="">posted adds</a></li>
+                   <li><a href="tabsettings.html" class=""><img src="images/settings.svg" alt="">settings</a></li>
+                   <li><a href="tabfaq.html" class=""><img src="images/faq.svg" alt="">FAQ</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+           <!-- RIGHT SECTION -->
+           <div class="col-12 col-lg-9 d-none d-lg-block">
+           </div>
+        </div>
+       
+        
+
+      </div>
+       <!-- DASHBOAD LEFT SIDE MENU SECTION ENDS -->
+             <!-- *********** Footer Section Starts *********** -->
+      <footer>
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">about us</div>
+                <div class="footer-abtus">
+                  We provide a complete support for the sale, purchase. We provide a complete suppoet for the sale and purchases.
+                </div>
+                <div class="footer-heads">follow us</div>
+                <ul class="social-media-icons">
+                  <li><a href=""><img src="images/fb.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/tumbler.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/twitter.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/youtube.svg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">popular searches</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">Shop for rent in Ernakulam</a></li>
+                  <li><a href="">Villa for sale in Kochi</a></li>
+                  <li><a href="">Apartment sale in Kannur</a></li>
+                  <li><a href="">Commercial buildings in Trissur</a></li>
+                  <li><a href="">House for rent in Edappaly</a></li>
+                  <li><a href="">Villa for lease in TVM</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">most searches</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">Shop for rent in Ernakulam</a></li>
+                  <li><a href="">Villa for sale in Kochi</a></li>
+                  <li><a href="">Apartment sale in Kannur</a></li>
+                  <li><a href="">Commercial buildings in Trissur</a></li>
+                  <li><a href="">House for rent in Edappaly</a></li>
+                  <li><a href="">Villa for lease in TVM</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">quicks links</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">home</a></li>
+                  <li><a href="">about us</a></li>
+                  <li><a href="">contact us</a></li>
+                  <li><a href="">terms & conditions</a></li>
+                  <li><a href="">privacy policy</a></li>
+                  <li><a href="">refund policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="copy-right">
+                © Copyright 2022 - All rights reserved. Powered by Netzera Technologies
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- *********** Footer Section Ends *********** -->
+    </section>
+    <!--CONTENT ENDS-->
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--Bootstrap-5.0.1 JS-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Plugins-->
+    <script src="plugins/select2/js/select2.min.js"></script>
+    <script src="js/selecttigger.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="js/slicktigger.js"></script>
+    <script src="plugins/rangeslider/rangeslider.js"></script>
+    <script src="js/slider.js"></script>
+
+
+</body>
+</html>

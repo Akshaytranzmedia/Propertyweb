@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#bc0000">
+    <link rel="icon" type="image/png" href="">
+    <title>Property</title>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Regular CSS-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/logreg.css">
+
+    <!--Plugins-->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="plugins/wow/animate.css">
+</head>
+<body class="regi-bg wow fadeInDown" data-wow-delay="300ms">
+    <!--Content Starts-->
+    <section class="">
+        <!-- *********** Header Section Starts *********** -->
+        <div class="log-header">
+            <div class="header-menu">
+              <div class="header-lft">
+                <div class="brand-logo"><a href=""><img src="images/logo.png" alt="logo"></a></div>
+              </div>
+              <div class="header-rght">
+                <div class="hom-log-btn"><a href="home.html"><img src="images/log-hm.svg" alt=""></a></div>
+                <div class="regi-link"><a href="login.html">login</a></div>
+                <div class="postadd-btn"><a href="">post add</a></div>
+              </div>
+              <div class="hm-mob-ham">
+                <a href="login.html" class="login-medium">login</a>
+                <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <img src="images/menu icon.svg" alt="" class="hm-menu-icon">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Side menu-->
+          <div class="hm-mob-header">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="hm-side-menu-container">
+                <div class="hm-side-menu-header">
+                  <img src="images/logo.png" alt="logo">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="hm-side-menulist">
+                  <ul class="header-mob-menu-list">
+                    <li><a href="home.html" class="header-menu-active">home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="services.html">our services</a></li>
+                    <li><a href="contect.html">contact us</a></li>
+                  </ul>
+                </div>
+                </div>
+            </div>
+          </div>
+        <!-- *********** Header Section Ends *********** -->
+        <!-- *********** Login Section Starts *********** -->
+        <div class="parent-container1">
+            <div class="row">
+                <div class="col-12">
+                   <div class="log-main-container">
+                        <div class="login-container">
+                            <h3 class="log-head wow fadeInDown" data-wow-delay="300ms">create new account</h3>
+                            <div class="reg-link-log wow fadeInDown" data-wow-delay="300ms">already a member / <a href="login.html">login</a></div>
+                            <form action="">
+                                <div class="log-input-box wow fadeInDown" data-wow-delay="300ms">
+                                  <label for="">Name:</label>
+                                  <input type="text" name="" id="">
+                                </div>
+                                <div class="log-input-box wow fadeInDown" data-wow-delay="300ms">
+                                    <label for="">mobile no:</label>
+                                    <input type="text" inputmode="tel" name="" id="">
+                                </div>
+                                <div class="log-input-box wow fadeInDown" data-wow-delay="300ms">
+                                    <label for="">password:</label>
+                                    <input type="password" name="password" autocomplete="current-password" required="" class="idpassword">
+                                    <i class="far fa-eye pas-eye togglepassword"></i>
+                                </div>
+                                <div class="log-input-box wow fadeInDown" data-wow-delay="300ms">
+                                  <label for="">confirm password:</label>
+                                  <input type="password" name="password" autocomplete="current-password" required="" id="id_password">
+                                  <i class="far fa-eye pas-eye" id="togglePassword"></i>
+                                </div>
+                                <div class="prop-filter-checkboxes wow fadeInDown" data-wow-delay="300ms">
+                                    <input type="checkbox" id="html">
+                                    <label for="html">accept terms and conditions</label>
+                                </div>
+                                <button class="login-btn wow fadeInDown" data-wow-delay="300ms">register</button>
+                            </form>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <!-- *********** Login Section Ends *********** -->
+        
+    </section>
+    <!--Content Ends-->
+
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--Bootstrap-5.0.1 JS-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/password-toggle.js"></script>
+    <script src="plugins/wow/wow.min.js"></script>  
+    <script src="plugins/wow/wowtrigger.js"></script>
+    <!--Plugins-->
+
+</body>
+</html>

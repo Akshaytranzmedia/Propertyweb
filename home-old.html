@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#bc0000">
+    <link rel="icon" type="image/png" href="">
+    <title>Property</title>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Regular CSS-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hm_header.css">
+    <link rel="stylesheet" href="css/custom_style.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!--Plugins-->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/wow/animate.css">
+
+</head>
+<body>
+    
+    <!--Content Starts-->
+    <section class="">
+      <!-- *********** Header Section Starts *********** -->
+      <div class="hm-header">
+        <div class="header-menu">
+          <div class="header-lft">
+            <div class="brand-logo"><a href=""><img src="images/logo.png" alt="logo"></a></div>
+            <div>
+              <ul class="header-menu-list">
+                <li><a href="home.html" class="header-menu-active">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="services.html">our services</a></li>
+                <li><a href="contact.html">contact us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-rght">
+            <div class="regi-link"><a href="login.html">login</a></div>
+            <div class="postadd-btn"><a href="">post add</a></div>
+          </div>
+          <div class="hm-mob-ham">
+            <a href="login.html" class="login-medium">login</a>
+            <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <img src="images/menu icon.svg" alt="" class="hm-menu-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hm-mob-header">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="hm-side-menu-container">
+            <div class="hm-side-menu-header">
+              <img src="images/logo.png" alt="logo">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="hm-side-menulist">
+              <ul class="header-mob-menu-list">
+                <li><a href="home.html" class="header-menu-active">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="services.html">our services</a></li>
+                <li><a href="contact.html">contact us</a></li>
+                <li><a href="">logout</a></li>
+              </ul>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="mob-menu-bottom">
+        <div class="mob-menu-btm-list">
+          <ul>
+            <li><a href=""><img src="images/Settings-Alt.svg" alt=""><span>settings</span></a></li>
+            <li><a href=""><img src="images/Image.svg" alt=""><span>adds</span></a></li>
+            <li><a href=""><img src="images/Bookmark.svg" alt=""><span>bookmarks</span></a></li>
+            <li><a href="login.html"><img src="images/User.svg" alt=""><span>Profile</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- *********** Header Section Ends *********** -->
+      <!-- *********** Banner Section Starts *********** -->
+      <div class="main-banner"></div>
+      <div class="parent-container1">
+         <!--Parent container starts-->
+        <div class="banner-content">
+          <div class="banner-tags wow fadeInDown">
+            find your <span>best</span> <br>property
+          </div>
+          <div class="search-container wow fadeInDown">
+            <form action="">
+              <div class="search-tabs">
+                <ul class="search-tabs-list">
+                  <li><a class="search-tab-active" href="listing.html">rent</a></li>
+                  <li><a href="">sale</a></li>
+                  <li><a href="">lease</a></li>
+                  <li><button type="submit" class="search-button">search</button></li>
+                </ul>
+              </div>
+              <div class="search-inputs-container">
+                <div class="row">
+                  <div class="col-12 col-sm-6">
+                    <div class="input-container-search">
+                      <label for="">Location</label>
+                      <input type="text" value="Ernakulam">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="input-container-search">
+                      <label for="">Type</label>
+                      <input type="text" value="house">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="input-container-search">
+                      <label for="">City</label>
+                      <input type="text" value="edapally">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="input-container-search">
+                      <label for="">price range</label>
+                      <input type="text" value="5k - 10k">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="search-btn-mob">search</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- *********** Banner Section Ends *********** -->
+        <!-- *********** Best Service Section Starts *********** -->
+        <div class="best-service-section wow fadeInDown" data-wow-delay="100ms">
+          <div class="common-header-sec">
+            <div class="com-title">
+              our best <br>services
+            </div>
+            <div class="com-tag">
+              <span><img class="quote-lft" src="images/quote-left.svg" alt=""></span>
+              We provide a complete support for the sale, purchase <br> or rental of real estate.
+              <span><img class="quote-rgt" src="images/quote-right.svg" alt=""></span>
+            </div>
+            <div class="slider-btns">
+               <ul>
+                 <li class="prev-arrow"><img src="images/prev btn.png" alt=""><span class="pre-nxt-btn">Prev</span></li>
+                 <li class="next-arrow"><img src="images/next btn.png" alt=""><span class="pre-nxt-btn">Next</span></li>
+               </ul>
+            </div>
+          </div>
+          <div class="service-slider-container">
+            <div class="serviceslider">
+              <div class="slider-content">
+               <div class="slider-inner-content">
+                <img src="images/commerical.svg" alt="">
+                <div class="service-img-name">commerical space</div>
+               </div>
+              </div>
+              <div class="slider-content">
+                <div class="slider-inner-content">
+                 <img src="images/office.svg" alt="">
+                 <div class="service-img-name">office space</div>
+                </div>
+               </div>
+               <div class="slider-content">
+                <div class="slider-inner-content">
+                 <img src="images/com-buliding.svg" alt="">
+                 <div class="service-img-name">commerical building</div>
+                </div>
+               </div>
+               <div class="slider-content">
+                <div class="slider-inner-content">
+                 <img src="images/hotelapart.svg" alt="">
+                 <div class="service-img-name">hotel apartment</div>
+                </div>
+               </div>
+               <div class="slider-content">
+                <div class="slider-inner-content">
+                 <img src="images/villa.svg" alt="">
+                 <div class="service-img-name">villa</div>
+                </div>
+               </div>
+               <div class="slider-content">
+                <div class="slider-inner-content">
+                 <img src="images/apartment.svg" alt="">
+                 <div class="service-img-name">apartment</div>
+                </div>
+               </div>
+               <div class="slider-content">
+                <div class="slider-inner-content">
+                 <img src="images/com-buliding.svg" alt="">
+                 <div class="service-img-name">commerical building</div>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <!-- *********** Best Service Section Ends *********** -->
+        <!-- *********** What We Do Section Starts *********** -->
+       <div class="common-spacing wow fadeInLeft">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="whtdo-sec">
+              <img src="images/img1.jpg" class="img-fluid" alt="house_img">
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="com-title">
+              what we do
+            </div>
+            <p class="common-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum vero quidem culpa quisquam accusamus debitis deleniti, illum et accusantium eligendi libero, dolores incidunt amet veritatis id? Hic, minima ut.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum vero quidem culpa quisquam accusamus debitis deleniti, illum et accusantium eligendi libero, dolores incidunt amet veritatis id? Hic, minima ut.
+            </p>
+            <div>
+              <div class="row">
+                <div class="col-12 col-md-5">
+                  <div class="features-container">
+                    <img class="feat-one img-fluid wow fadeInLeftBig" src="images/feature1.png" alt="">
+                    <img class="feat-two img-fluid wow fadeInLeftBig" data-wow-delay="80ms" src="images/feature2.png" alt="">
+                    <img class="feat-three img-fluid wow fadeInLeftBig" data-wow-delay="150ms" src="images/feature3.png" alt="">
+                  </div>
+                </div>
+                <div class="col-12 col-md-7">
+                  <div class="achievements-sec">
+                    <div class="row">
+                      <div class="col-4 col-sm-6">
+                        <div class="achv-details wow slideInRight">
+                          <div class="achivehead">560+</div>
+                          <div class="achivetag">property sell</div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-sm-6">
+                        <div class="achv-details wow slideInRight" data-wow-delay="80ms">
+                          <div class="achivehead">1000+</div>
+                          <div class="achivetag">Happy customers</div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-sm-6">                                             
+                        <div class="achv-details wow slideInRight" data-wow-delay="150ms">
+                          <div class="achivehead">10+</div>
+                          <div class="achivetag">years experience</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+        <!-- *********** What We Do Section Ends *********** -->
+        <!-- *********** Property Slider Section Starts *********** -->
+        <div class="property-slider common-spacing wow fadeInDown" data-wow-delay="100ms">
+          <div class="common-header-sec">
+            <div class="com-title">
+              new property <br>for sale
+            </div>
+            <div class="com-tag">
+              <span><img class="quote-lft" src="images/quote-left.svg" alt=""></span>
+              We provide a complete support for the sale, purchase <br> or rental of real estate.
+              <span><img class="quote-rgt" src="images/quote-right.svg" alt=""></span>
+            </div>
+            <div class="slider-btns">
+               <ul>
+                 <li class="prev-arrow1"><img src="images/prev btn.png" alt=""><span class="pre-nxt-btn">Prev</span></li>
+                 <li class="next-arrow1"><img src="images/next btn.png" alt=""><span class="pre-nxt-btn">Next</span></li>
+               </ul>
+            </div>
+          </div>
+          <div class="proerty-slider-container">
+            <div class="property-slider-box">
+              <img src="images/pro1.jpg" class="hm-pro-imgs img-fluid" alt="">
+              <div class="pro-img-detials">
+                <div class="pro-img-titles">
+                  <h6>house for sale</h6>
+                  <p>Ernakulam, Kerala</p>
+                </div>
+                <div class="pro-img-btn">
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <!---->
+            <div class="property-slider-box">
+              <img src="images/pro2.jpg" class="hm-pro-imgs img-fluid" alt="">
+              <div class="pro-img-detials">
+                <div class="pro-img-titles">
+                  <h6>house for sale</h6>
+                  <p>Ernakulam, Kerala</p>
+                </div>
+                <div class="pro-img-btn">
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <!---->
+             <!---->
+             <div class="property-slider-box">
+              <img src="images/pro3.jpg" class="hm-pro-imgs img-fluid" alt="">
+              <div class="pro-img-detials">
+                <div class="pro-img-titles">
+                  <h6>house for sale</h6>
+                  <p>Ernakulam, Kerala</p>
+                </div>
+                <div class="pro-img-btn">
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <!---->
+             <!---->
+             <div class="property-slider-box">
+              <img src="images/pro4.jpg" class="hm-pro-imgs img-fluid" alt="">
+              <div class="pro-img-detials">
+                <div class="pro-img-titles">
+                  <h6>house for sale</h6>
+                  <p>Ernakulam, Kerala</p>
+                </div>
+                <div class="pro-img-btn">
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+        </div>
+        
+        <!-- *********** Property Slider Section Ends *********** -->
+        
+        <!--Parent container ends-->
+      </div>
+      <!-- New Container Starts -->
+       <!-- *********** Testimonial Section Starts *********** -->
+       <div class="testimonial-section mt-5 wow fadeInDown" data-wow-delay="100ms">
+        <div class="parent-container2">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="whtdo-sec">
+                <img src="images/testimonial.png" class="img-fluid" alt="house_img">
+              </div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="com-title">
+              testimonial
+              </div>
+              <p class="common-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum vero quidem culpa quisquam accusamus debitis deleniti, illum et accusantium eligendi libero, dolores incidunt amet veritatis id? Hic, minima ut.
+                Lorem ipsum dol
+              </p>
+              <div class="testi-offi"><img src="images/office-building_g.svg" alt=""></div>
+              <div class="testi-villa"><img src="images/villa_g.svg" alt=""></div>
+              <div class="testi-slider">
+                <div class="testimonial-card">
+                  <div class="testi-header">
+                    <div class="testi-pro-img">
+                      <img src="images/ppl1.jpg" alt="profileimg" class="profile-img-testi">
+                    </div>
+                    <div class="testi-names">
+                      <div class="testiname">david dcru'z</div>
+                      <div class="testiloca">pune, india</div>
+                    </div>
+                  </div>
+                  <div class="reviw">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis deleniti, dolores incidunt amet veritatis id? Hic, minima ut. Lorem ipsum dol
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis deleniti, dolores incidunt amet veritatis id? Hic, minima ut. Lorem ipsum dol
+                  </div>
+                </div>
+                <!---->
+                <div class="testimonial-card">
+                  <div class="testi-header">
+                    <div class="testi-pro-img">
+                      <img src="images/ppl2.jpg" alt="profileimg" class="profile-img-testi">
+                    </div>
+                    <div class="testi-names">
+                      <div class="testiname">david dcru'z</div>
+                      <div class="testiloca">pune, india</div>
+                    </div>
+                  </div>
+                  <div class="reviw">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis deleniti, dolores incidunt amet veritatis id? Hic, minima ut. Lorem ipsum dol
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis deleniti, dolores incidunt amet veritatis id? Hic, minima ut. Lorem ipsum dol
+                  </div>
+                </div>
+                <!---->
+                <div class="testimonial-card">
+                  <div class="testi-header">
+                    <div class="testi-pro-img">
+                      <img src="images/ppl1.jpg" alt="profileimg" class="profile-img-testi">
+                    </div>
+                    <div class="testi-names">
+                      <div class="testiname">david dcru'z</div>
+                      <div class="testiloca">pune, india</div>
+                    </div>
+                  </div>
+                  <div class="reviw">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis deleniti, dolores incidunt amet veritatis id? Hic, minima ut. Lorem ipsum dol
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis deleniti, dolores incidunt amet veritatis id? Hic, minima ut. Lorem ipsum dol
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <div class="testi-arrows">
+                <div class="prev-arrow2"><img src="images/leftarow.svg" alt=""></div>
+                <div class="next-arrow2"><img src="images/rightarow.svg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- *********** Testimonial Section Ends *********** -->
+      <!-- *********** Bottom Section Starts *********** -->
+      <div class="mt-5 bottom-container">
+       
+       <ul class="bottom-top-section-list">
+        <li>
+          <div class="bottom-content">
+            <div class="com-title">
+              Featured property for Rent
+            </div>
+            <div class="common-para">
+              We provide a complete support for the sale, purchase.
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/unsplash_2gDwlIim3Uw.png" alt="">
+        </li>
+        <li>
+          <img src="images/unsplash_3_1f0ZGOjIY.png" alt="">
+        </li>
+        <li>
+          <img src="images/unsplash_8saVYOMHFzU.png" alt="">
+        </li>
+        <li>
+          <img src="images/unsplash_QBAH4IldaZY.png" alt="">
+        </li>
+        <li>
+          <img src="images/unsplash_rChFUMwAe7E.png" alt="">
+        </li>
+       </ul>
+       <ul class="bottom-top-section-list1">
+        <li>
+          <img src="images/unsplash_wR11KBaB86U.png" class="" alt="">
+        </li>
+        <li>
+          <img src="images/unsplash_WvXItho2YKw.png" class="" alt="">
+        </li>
+        <li>
+          <img src="images/img1.jpg" class="" alt="">
+        </li>
+        <li>
+          <img src="images/unsplash_2gDwlIim3Uw.png" class="" alt="">
+        </li>
+       </ul>
+      </div>
+      <!-- *********** Bottom Section Ends *********** -->
+      <!-- New Container Ends -->
+      <!-- *********** Footer Section Starts *********** -->
+      <footer>
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">about us</div>
+                <div class="footer-abtus">
+                  We provide a complete support for the sale, purchase. We provide a complete suppoet for the sale and purchases.
+                </div>
+                <div class="footer-heads">follow us</div>
+                <ul class="social-media-icons">
+                  <li><a href=""><img src="images/fb.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/tumbler.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/twitter.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/youtube.svg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">popular searches</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">Shop for rent in Ernakulam</a></li>
+                  <li><a href="">Villa for sale in Kochi</a></li>
+                  <li><a href="">Apartment sale in Kannur</a></li>
+                  <li><a href="">Commercial buildings in Trissur</a></li>
+                  <li><a href="">House for rent in Edappaly</a></li>
+                  <li><a href="">Villa for lease in TVM</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">most searches</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">Shop for rent in Ernakulam</a></li>
+                  <li><a href="">Villa for sale in Kochi</a></li>
+                  <li><a href="">Apartment sale in Kannur</a></li>
+                  <li><a href="">Commercial buildings in Trissur</a></li>
+                  <li><a href="">House for rent in Edappaly</a></li>
+                  <li><a href="">Villa for lease in TVM</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">quicks links</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">home</a></li>
+                  <li><a href="">about us</a></li>
+                  <li><a href="">contact us</a></li>
+                  <li><a href="">terms & conditions</a></li>
+                  <li><a href="">privacy policy</a></li>
+                  <li><a href="">refund policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="copy-right">
+                © Copyright 2022 - All rights reserved. Powered by Netzera Technologies
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- *********** Footer Section Ends *********** -->
+
+    </section>
+    <!-- <div class="p-5 m-5"></div> -->
+    <!--Content Ends-->
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--Bootstrap-5.0.1 JS-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Plugins-->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="js/slicktigger.js"></script>
+    <script src="js/tesitmoniol.js"></script>
+    <script src="plugins/wow/wow.min.js"></script>
+    <script src="plugins/wow/wowtrigger.js"></script>
+
+</body>
+</html>

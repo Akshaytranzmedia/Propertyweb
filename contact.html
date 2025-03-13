@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#bc0000">
+    <link rel="icon" type="image/png" href="">
+    <title>Property</title>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Regular CSS-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/innerheader.css">
+    <link rel="stylesheet" href="css/custom_style.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!--Plugins-->
+    <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/rangeslider/rangeslider.css">
+    <link rel="stylesheet" href="plugins/wow/animate.css">
+</head>
+<body> 
+
+    <!-- CONTENT STARTS-->
+    <section>
+       <!--HEADER MENU STARTS--> 
+       <div class="inner-header-container">
+            <div class="inner-header-menu">
+                <div class="inner-head-lft">
+                    <div class="inner-head-logo"><a href="home.html"><img src="images/logo.png" alt="logo"></a></div>
+                    <div class="inner-head-search-container">
+                        <form action="">
+                            <div class="inner-head-search-form">
+                                <select class="js-example-basic-single js-states form-control inner-head-drop" id="id_label_single">
+                                    <option value="" selected>sale</option>
+                                    <option value="">rent</option>
+                                    <option value="">lease</option>
+                                </select>
+                                <input type="text" placeholder="Search Property" class="inner-head-search" name="" id="">
+                                <button type="" class="inner-head-search-btn"><img src="images/search-icon.svg" alt=""></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="inner-head-rght">
+                    <div class="head-home-btn"><a href="home.html"><img src="images/home-btn.svg" alt=""></a></div>
+                    <div class="head-notification-btn"><a href=""><img src="images/notification-btn.svg" alt=""></a></div>
+                    <div class="head-user-profile-drop">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="images/profile-img.jpg" class="profile-img-drop" alt=""> <span>Akshay</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="dashboard.html">dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">settings</a></li>
+                              <li><a class="dropdown-item" href="#">bookmarks</a></li>
+                              <li><a class="dropdown-item" href="#">logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="postadd-btn"><a href="">post add</a></div>
+                </div>
+                <div class="hm-mob-ham">
+                  <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="images/menu icon.svg" alt="" class="hm-menu-icon">
+                  </div>
+                </div>
+            </div>
+       </div>
+
+       <div class="hm-mob-header">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="hm-side-menu-container">
+            <div class="hm-side-menu-header">
+              <img src="images/logo.png" alt="logo">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="hm-side-menulist">
+              <ul class="header-mob-menu-list">
+                <li><a href="home.html" class="header-menu-active">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="services.html">our services</a></li>
+                <li><a href="contect.html">contact us</a></li>
+                <li><a href="">logout</a></li>
+              </ul>
+            </div>
+            </div>
+        </div>
+      </div>
+
+       <div class="mob-menu-bottom">
+        <div class="mob-menu-btm-list">
+          <ul>
+            <li><a href=""><img src="images/Notification.svg" alt=""><span>notification</span></a></li>
+            <li><a href=""><img src="images/Image.svg" alt=""><span>adds</span></a></li>
+            <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><img src="images/Search.svg" alt=""><span>search</span></li>
+            <li><a href="login.html"><img src="images/User.svg" alt=""><span>Profile</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">find your property</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="mob-search-container">
+            <div class="mob-search-bar">
+              <input type="text" placeholder="Search Property">
+              <button><img src="images/search-icon.svg" alt=""> </button>
+            </div>
+            <div class="mob-search-head">Popular searches</div>
+            <ul class="mob-search-recent-ser">
+              <li><a href="">Sale</a></li>
+              <li><a href="">Rent House</a></li>
+              <li><a href="">Sale Apartment</a></li>
+              <li><a href="">Land for sale</a></li>
+              <li><a href="">house for rent</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <!--HEADER MENU ENDS--> 
+
+      <!-- LISITING SECTION STARTS -->
+      <div class="parent-container1">
+        <div class="contact-us-img-container wow fadeInDown" data-wow-delay="100ms">
+          <div class="contactus-head-content wow fadeInDown" data-wow-delay="200ms">
+            <h1>contact us</h1>
+            <div class="contactus-sub-tag wow fadeInDown" data-wow-delay="300ms">
+              Feel free to contact us.
+              <br>
+              Our team will reach you as soon as.
+            </div>
+          </div>
+        </div>
+        <!--content-->
+        <div class="row">
+          <div class="col-12 col-md-5 col-lg-4">
+            <div class="contactus-left wow fadeInDown" data-wow-delay="100ms">
+              <div class="contact-para">
+                Confused about anything in our website? <br>Our team will help you with the best choice.
+              </div>
+              <div class="contactus-form wow fadeInDown" data-wow-delay="100ms">
+                <form action="">
+                   <div class="contactus-input-boxes">
+                     <label for="">Name:</label>
+                     <input type="text" name="" id="">
+                   </div>
+                   <div class="contactus-input-boxes">
+                    <label for="">Mobile no:</label>
+                    <input type="text" name="" id="">
+                  </div>
+                  <div class="contactus-input-boxes">
+                    <label for="">Email ID:</label>
+                    <input type="text" name="" id="">
+                  </div>
+                  <div class="contactus-input-boxes">
+                    <label for="">Message:</label>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                  </div>
+                  <button class="contactus-btn">send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!--right side content-->
+          <div class="col-12 col-md-7 col-lg-8">
+            <div class="contactus-right-container wow fadeInDown" data-wow-delay="100ms">
+              <div class="contactus-address">
+                <div class="contact-add">
+                  Netzera Technologies, 10/2686 A, surabhi road, sonia <br>
+                   nagar, behind QRS retail NH bypass palarivattom, <br> 
+                   edappally, ernakulam, Kerala, India, Pin: 682025
+                </div>
+                <div class="contact-sent">e-mail: <span><a href="">netzera@gmail.com</a> </span></div>
+                <div class="contact-sent">
+                  For Queries <br>
+                  call (Mon-Sat: 09.30 AM to 06.30 PM)
+                  <br>
+                  <span><a href="">82 36 22 56 26</a></span>
+                </div>
+              </div>
+              <div class="contact-loc">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.088563508857!2d76.30899321449446!3d10.009543192844612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d1eceb53d19%3A0xd85e3f1c16d7335b!2sNetzera%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1643949905309!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- LISITING SECTION ENDS -->
+             <!-- *********** Footer Section Starts *********** -->
+      <footer>
+        <div class="footer-container wow fadeInUp" data-wow-delay="300ms">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">about us</div>
+                <div class="footer-abtus">
+                  We provide a complete support for the sale, purchase. We provide a complete suppoet for the sale and purchases.
+                </div>
+                <div class="footer-heads">follow us</div>
+                <ul class="social-media-icons">
+                  <li><a href=""><img src="images/fb.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/tumbler.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/twitter.svg" alt=""></a></li>
+                  <li><a href=""><img src="images/youtube.svg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">popular searches</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">Shop for rent in Ernakulam</a></li>
+                  <li><a href="">Villa for sale in Kochi</a></li>
+                  <li><a href="">Apartment sale in Kannur</a></li>
+                  <li><a href="">Commercial buildings in Trissur</a></li>
+                  <li><a href="">House for rent in Edappaly</a></li>
+                  <li><a href="">Villa for lease in TVM</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">most searches</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">Shop for rent in Ernakulam</a></li>
+                  <li><a href="">Villa for sale in Kochi</a></li>
+                  <li><a href="">Apartment sale in Kannur</a></li>
+                  <li><a href="">Commercial buildings in Trissur</a></li>
+                  <li><a href="">House for rent in Edappaly</a></li>
+                  <li><a href="">Villa for lease in TVM</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-inside-container">
+                <div class="footer-heads">quicks links</div>
+                <ul class="footer-search-lists">
+                  <li><a href="">home</a></li>
+                  <li><a href="">about us</a></li>
+                  <li><a href="">contact us</a></li>
+                  <li><a href="">terms & conditions</a></li>
+                  <li><a href="">privacy policy</a></li>
+                  <li><a href="">refund policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="copy-right">
+                © Copyright 2022 - All rights reserved. Powered by Netzera Technologies
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- *********** Footer Section Ends *********** -->
+    </section>
+    <!--CONTENT ENDS-->
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--Bootstrap-5.0.1 JS-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Plugins-->
+    <script src="plugins/select2/js/select2.min.js"></script>
+    <script src="js/selecttigger.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="js/slicktigger.js"></script>
+    <script src="plugins/rangeslider/rangeslider.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="plugins/wow/wow.min.js"></script>
+    <script src="plugins/wow/wowtrigger.js"></script>
+
+
+</body>
+</html>
